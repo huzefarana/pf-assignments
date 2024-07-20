@@ -1,4 +1,4 @@
-//write a program that uses a 1D array to store 10 numbers and then calculate the sum of squares of those numbers.
+// write a program that uses a 1D array to store 10 numbers and then calculate the sum of squares of those numbers.
 
 #include <iostream>
 using namespace std;

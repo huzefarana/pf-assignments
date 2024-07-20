@@ -122,7 +122,7 @@ void printUnluckies(int lucky[], int numEmps, double sal[][2])
     {
         if (lucky[i] == 1)
         {
-            cout << "\nEmployee No: " << i + 1 << " with gross salary " << sal[i][0] << " and net salary " << sal[i][1];
+            cout << "\nEmployee No: " << i + 1 << " with gross salary " << sal[i][0] << " and net salary " << sal[i][1] << endl;
         }
     }
 }

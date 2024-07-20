@@ -1,4 +1,4 @@
-//Write a program to print the address of a variable whose value is input from user.
+// Write a program to print the address of the pointer to a variable whose value is input from user.
 
 #include <iostream>
 using namespace std;
@@ -9,5 +9,6 @@ int main()
     int *numPtr = &num;
     cout << "Please enter any inetger: ";
     cin >> num;
-    cout << "The address of the integer is: " << numPtr << "\n";
+    cout << "The address of the pointer to int is: " << &numPtr << "\n";
+    return 0;
 }
